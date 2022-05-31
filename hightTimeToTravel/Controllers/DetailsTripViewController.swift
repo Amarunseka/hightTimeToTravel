@@ -26,7 +26,7 @@ class DetailsTripViewController: UIViewController {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "Мне нравится!"
-        label.font = UIFont.systemFont(ofSize: 20, weight: .regular)
+        label.font = UIFont.proximaNovaBlack22()
         label.textColor = #colorLiteral(red: 0.4235294118, green: 0.06666666667, blue: 0.7882352941, alpha: 1)
         return label
     }()
@@ -127,7 +127,7 @@ extension DetailsTripViewController: UITableViewDataSource {
         
         var configuration = cell.defaultContentConfiguration()
         configuration.textProperties.color = .white
-        configuration.textProperties.font = UIFont.systemFont(ofSize: 25)
+        configuration.textProperties.font = UIFont.proximaNovaRegular26() ?? UIFont.systemFont(ofSize: 22)
 
         
         switch indexPath.section {

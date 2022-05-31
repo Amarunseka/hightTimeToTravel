@@ -23,6 +23,10 @@
 		454517DC28460F7400F16EC0 /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454517DB28460F7400F16EC0 /* TripModel.swift */; };
 		454517DF284672A300F16EC0 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454517DE284672A300F16EC0 /* UIImageExtensions.swift */; };
 		454517E12846741400F16EC0 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454517E02846741400F16EC0 /* UIImageView.swift */; };
+		454517E628468EAB00F16EC0 /* ProximaNova-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 454517E328468EAB00F16EC0 /* ProximaNova-Bold.ttf */; };
+		454517E728468EAB00F16EC0 /* ProximaNova-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 454517E428468EAB00F16EC0 /* ProximaNova-Black.ttf */; };
+		454517E828468EAB00F16EC0 /* ProximaNova-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 454517E528468EAB00F16EC0 /* ProximaNova-Regular.ttf */; };
+		454517EA28468F6700F16EC0 /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454517E928468F6700F16EC0 /* UIFontExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		454517DB28460F7400F16EC0 /* TripModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
 		454517DE284672A300F16EC0 /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
 		454517E02846741400F16EC0 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		454517E328468EAB00F16EC0 /* ProximaNova-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.ttf"; sourceTree = "<group>"; };
+		454517E428468EAB00F16EC0 /* ProximaNova-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Black.ttf"; sourceTree = "<group>"; };
+		454517E528468EAB00F16EC0 /* ProximaNova-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.ttf"; sourceTree = "<group>"; };
+		454517E928468F6700F16EC0 /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,7 @@
 				454517DE284672A300F16EC0 /* UIImageExtensions.swift */,
 				453F25A3284549E100E09250 /* UIViewExtensions.swift */,
 				454517E02846741400F16EC0 /* UIImageView.swift */,
+				454517E928468F6700F16EC0 /* UIFontExtension.swift */,
 				454517D828460E6E00F16EC0 /* DateTransformer.swift */,
 			);
 			path = Extensions;
@@ -146,11 +155,22 @@
 		454517DD2846634C00F16EC0 /* Recources */ = {
 			isa = PBXGroup;
 			children = (
+				454517E228468E7400F16EC0 /* Fonts */,
 				453F259328453C5300E09250 /* Assets.xcassets */,
 				453F259528453C5300E09250 /* LaunchScreen.storyboard */,
 				453F259828453C5300E09250 /* Info.plist */,
 			);
 			path = Recources;
+			sourceTree = "<group>";
+		};
+		454517E228468E7400F16EC0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				454517E428468EAB00F16EC0 /* ProximaNova-Black.ttf */,
+				454517E328468EAB00F16EC0 /* ProximaNova-Bold.ttf */,
+				454517E528468EAB00F16EC0 /* ProximaNova-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +232,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				453F259728453C5300E09250 /* LaunchScreen.storyboard in Resources */,
+				454517E828468EAB00F16EC0 /* ProximaNova-Regular.ttf in Resources */,
+				454517E628468EAB00F16EC0 /* ProximaNova-Bold.ttf in Resources */,
 				453F259428453C5300E09250 /* Assets.xcassets in Resources */,
+				454517E728468EAB00F16EC0 /* ProximaNova-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				453F258F28453C4E00E09250 /* StartScreenViewController.swift in Sources */,
+				454517EA28468F6700F16EC0 /* UIFontExtension.swift in Sources */,
 				454517D928460E6E00F16EC0 /* DateTransformer.swift in Sources */,
 				454517E12846741400F16EC0 /* UIImageView.swift in Sources */,
 				454517DC28460F7400F16EC0 /* TripModel.swift in Sources */,

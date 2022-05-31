@@ -12,7 +12,7 @@ extension UILabel {
     static func specialTitleLabel(text: String) -> UILabel {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = UIFont.systemFont(ofSize: 15, weight: .regular)
+        label.font = UIFont.proximaNovaBold16()
         label.text = text
         label.textColor = #colorLiteral(red: 0.9568627451, green: 0.262745098, blue: 0.2117647059, alpha: 1)
         label.adjustsFontSizeToFitWidth = true
@@ -23,7 +23,7 @@ extension UILabel {
     static func specialLabel(color: UIColor) -> UILabel {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = UIFont.systemFont(ofSize: 20, weight: .bold)
+        label.font = UIFont.proximaNovaBlack22()
         label.textColor = color
         label.adjustsFontSizeToFitWidth = true
         label.minimumScaleFactor = 0.5
